@@ -54,10 +54,11 @@ module.exports = {
 				rootKey: 'horoscopes',
 				schemas: {
 					horoscopes: `
-                title: String
-                date: String
-                content: String
-            `,
+						title: String
+						date: String
+						content: String
+						slug: String
+            		`,
 				},
 			},
 		},
@@ -87,25 +88,14 @@ module.exports = {
 			},
 		},
 		{
-			resolve: 'gatsby-plugin-sitemap',
+			resolve: `gatsby-plugin-advanced-sitemap`,
 			options: {
-				output: `/sitemap.xml`,
-				query: `
-				{
-					site {
-						siteMetadata {
-							siteUrl
-						}
-					}
-		
-					allSitePage {
-						edges {
-							node {
-								path
-							}
-						}
-					}
-				}`,
+				exclude: [
+					`/dev-404-page`,
+					`/404`,
+					`/404.html`,
+					`/offline-plugin-app-shell-fallback`,
+				],
 			},
 		},
 	],
