@@ -48,22 +48,17 @@ module.exports = {
 		},
 		`gatsby-plugin-catch-links`,
 		{
-			resolve: 'gatsby-plugin-sitemap',
-			options: {
-				output: `/sitemap.xml`,
-			},
-		},
-		{
 			resolve: 'gatsby-source-custom-api',
 			options: {
 				url: `https://api.apify.com/v2/actor-tasks/${process.env.APIFY_TASK_ID}/runs/last/dataset/items?token=${process.env.APIFY_TOKEN}&clean=true`,
 				rootKey: 'horoscopes',
 				schemas: {
 					horoscopes: `
-                title: String
-                date: String
-                content: String
-            `,
+						title: String
+						date: String
+						content: String
+						slug: String
+            		`,
 				},
 			},
 		},
@@ -90,6 +85,17 @@ module.exports = {
 					format: 'dddd, MMMM DD',
 					utc: false,
 				},
+			},
+		},
+		{
+			resolve: `gatsby-plugin-advanced-sitemap`,
+			options: {
+				exclude: [
+					`/dev-404-page`,
+					`/404`,
+					`/404.html`,
+					`/offline-plugin-app-shell-fallback`,
+				],
 			},
 		},
 	],
