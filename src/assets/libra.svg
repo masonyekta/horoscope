@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="50px" viewBox="0 0 86 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g class="icon" id="libra" transform="translate(-7.000000, 0.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Group" transform="translate(7.000000, 0.000000)">
+                <path d="M82.5,33.5 L61.5,33.5 C59.57,33.5 58,31.93 58,30 L58,23 C58,14.62 51.32,7.77 43,7.51 C34.68,7.77 28,14.62 28,23 L28,30 C28,31.93 26.43,33.5 24.5,33.5 L3.5,33.5 C1.57,33.5 0,31.93 0,30 C0,28.07 1.57,26.5 3.5,26.5 L21,26.5 L21,23 C21,11.15 30.21,1.41 41.85,0.56 C42.06,0.52 42.28,0.5 42.5,0.5 L43.5,0.5 C43.72,0.5 43.94,0.52 44.15,0.56 C55.79,1.41 65,11.15 65,23 L65,26.5 L82.5,26.5 C84.43,26.5 86,28.07 86,30 C86,31.93 84.43,33.5 82.5,33.5 Z" id="Path"></path>
+                <path d="M82.5,49.5 L3.5,49.5 C1.57,49.5 0,47.93 0,46 C0,44.07 1.57,42.5 3.5,42.5 L82.5,42.5 C84.43,42.5 86,44.07 86,46 C86,47.93 84.43,49.5 82.5,49.5 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

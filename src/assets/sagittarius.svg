@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g class="icon" id="sagittarius" transform="translate(-10.000000, 0.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Group" transform="translate(10.000000, 0.000000)">
+                <path d="M76,39.5 C74.07,39.5 72.5,37.93 72.5,36 L72.5,7.5 L45,7.5 C43.07,7.5 41.5,5.93 41.5,4 C41.5,2.07 43.07,0.5 45,0.5 L76,0.5 C77.93,0.5 79.5,2.07 79.5,4 L79.5,36 C79.5,37.93 77.93,39.5 76,39.5 Z" id="Path"></path>
+                <path d="M4,79.5 C3.1,79.5 2.21,79.16 1.52,78.47 C0.15,77.1 0.15,74.89 1.52,73.52 L73.52,1.52 C74.89,0.15 77.1,0.15 78.47,1.52 C79.84,2.89 79.84,5.1 78.47,6.47 L6.47,78.47 C5.79,79.16 4.9,79.5 4,79.5 Z" id="Path"></path>
+                <path d="M55,60.5 C54.1,60.5 53.21,60.16 52.52,59.47 L20.52,27.47 C19.15,26.1 19.15,23.89 20.52,22.52 C21.89,21.15 24.1,21.15 25.47,22.52 L57.47,54.52 C58.84,55.89 58.84,58.1 57.47,59.47 C56.79,60.16 55.9,60.5 55,60.5 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
