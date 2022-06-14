@@ -53,20 +53,20 @@ module.exports = {
 				output: `/sitemap.xml`,
 				query: `
 				{
-				  site {
-					siteMetadata {
-					  siteUrl
+					site {
+						siteMetadata {
+							siteUrl
+						}
 					}
-				  }
 		
-				  allHoroscopes {
-					edges {
-					  node {
-						slug
-					  }
+					allSitePage {
+						edges {
+							node {
+								path
+							}
+						}
 					}
-				  }
-			  }`,
+				}`,
 			},
 		},
 		{
