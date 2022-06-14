@@ -48,6 +48,12 @@ module.exports = {
 		},
 		`gatsby-plugin-catch-links`,
 		{
+			resolve: 'gatsby-plugin-sitemap',
+			options: {
+				output: `/sitemap.xml`,
+			},
+		},
+		{
 			resolve: 'gatsby-source-custom-api',
 			options: {
 				url: `https://api.apify.com/v2/actor-tasks/${process.env.APIFY_TASK_ID}/runs/last/dataset/items?token=${process.env.APIFY_TOKEN}&clean=true`,
