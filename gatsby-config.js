@@ -72,13 +72,6 @@ module.exports = {
 			},
 		},
 		{
-			resolve: 'gatsby-plugin-buildtime-timezone',
-			options: {
-				tz: 'Canada/Eastern',
-				format: 'ddd, DD MMM YYYY hh:mm A',
-			},
-		},
-		{
 			resolve: `gatsby-plugin-build-date`,
 			options: {
 				formatAsDateString: true,
