@@ -4,7 +4,7 @@ import HoroscopeList from './horoscope-list'
 import HoroscopeItem from './horoscope-item'
 import { useHoroscopeQuery } from '../../hooks/use-horoscope-query'
 
-export default function Blogs() {
+export default function Horoscopes() {
 	const { allHoroscopes } = useHoroscopeQuery()
 
 	return (
